@@ -43,7 +43,7 @@ The current function accepts POST requests with a JSON body to customize the scr
 
 | Parameter | Type   | Required | Default              | Description               |
 | --------- | ------ | -------- | -------------------- | ------------------------- |
-| `url`     | string | No       | "https://google.com" | URL to capture            |
+| `url`     | string | No       | "https://teletyped.com" | URL to capture            |
 | `width`   | number | No       | 1280                 | Viewport width in pixels  |
 | `height`  | number | No       | 720                  | Viewport height in pixels |
 
