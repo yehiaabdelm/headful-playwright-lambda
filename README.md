@@ -16,11 +16,13 @@ Ready-to-deploy solution for running Playwright in headful (non-headless) mode o
 ## Development
 
 Build the function
+
 ```bash
 sam build
 ```
 
 Start a server at port 3000. Just hit the function as shown in [Example Usage](#example-usage)
+
 ```bash
 sam local start-api
 ```
@@ -59,7 +61,7 @@ The current function accepts POST requests with a JSON body to customize the scr
 ```bash
 # Using curl
 curl -X POST \
-  https://your-api-endpoint.execute-api.us-east-2.amazonaws.com/Prod/ \
+  http://localhost:3000 \
   -H 'Content-Type: application/json' \
   -d '{
     "url": "https://teletyped.com",
@@ -68,7 +70,7 @@ curl -X POST \
   }'
 ```
 
-### Deployment
+## Deployment
 
 ### Github Action
 
